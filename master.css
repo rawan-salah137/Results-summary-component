@@ -1,0 +1,270 @@
+:root {
+    /*Colors Primary  */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Colors Gradients */
+    --Light-slate-blue: hsl(252, 100%, 67%); /* (background) */
+    --Light-royal-blue: hsl(241, 81%, 54%); /* (background) */
+    --Violet-blue: hsla(256, 72%, 46%, 1); /* (circle) */
+    --Persian-blue: hsla(241, 72%, 46%, 0); /* (circle) */
+
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 150px 0 50px 0;
+    flex-wrap: wrap;
+}
+
+.first {
+    background-image: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.light h1 {
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+}
+
+.hundred {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+}
+
+.hundred h2{
+    margin: -25px;
+    color: var(--White);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hundred h6 {
+    color: hsl(241, 100%, 89%);
+    font-size: 10px;
+}
+
+.dark h3 {
+    font-weight: 900;
+    color: white;
+}
+
+.dark p {
+    color: hsl(241, 100%, 89%);
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    width: 200px;
+    height: 300px;
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.second h2 {
+    margin-left: 10px;
+}
+
+.reaction {
+    background-color: hsl(0deg 100% 67% / 35%);
+    width: 180px;
+    height: 33px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.reaction svg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.space {
+    display: flex;
+    justify-content: space-around;
+}
+.reaction h3 {
+    color: hsl(0, 100%, 67%);
+    position: absolute;
+    left: 40px;
+}
+
+.reaction h5 {
+    position: relative;
+    left: 140px;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.bale {
+    color: hsl(241deg 27.66% 60.93%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.243);
+    width: 180px;
+    height: 33px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.memory svg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.memory h3 {
+    color: hsl(39, 100%, 56%);
+    position: absolute;
+    left: 40px;
+}
+
+.memory h5 {
+    position: relative;
+    left: 140px;
+}
+
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.187);
+    width: 180px;
+    height: 33px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.verbal svg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.verbal h3 {
+    color: hsl(166, 100%, 37%);
+    position: absolute;
+    left: 40px;
+}
+
+.verbal h5 {
+    position: relative;
+    left: 140px;
+}
+
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.249);
+    width: 180px;
+    height: 33px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visual svg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.visual h3 {
+    color: hsl(234, 85%, 45%);
+    position: absolute;
+    left: 40px;
+}
+
+.visual h5 {
+    position: relative;
+    left: 140px;
+}
+
+.btn {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: hsl(240, 90%, 12%);
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(241, 81%, 54%);
+}
